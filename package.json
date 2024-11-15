@@ -9,6 +9,6 @@
   "author": "levan",
   "license": "ISC",
   "dependencies": {
-    "rpn-levan": "^1.0.1"
+    "rpn-levan": "^3.0.1"
   }
 }

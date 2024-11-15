@@ -24,7 +24,9 @@ expressions.forEach((expression, index) => {
 
   console.log(`Calculated: ${result}, Expected: ${expected}`);
 
-  console.log(`Test ${isCorrect ? "PASSED" : "FAILED"}`);
+  console.log(
+    `Test ${isCorrect ? "\x1b[32mPASSED\x1b[0m" : "\x1b[31mFAILED\x1b[0m"}`
+  );
 
   console.log("---------------------------");
 });

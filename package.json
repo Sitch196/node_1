@@ -1,0 +1,14 @@
+{
+  "name": "node_1",
+  "version": "1.0.0",
+  "description": "testing our package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "levan",
+  "license": "ISC",
+  "dependencies": {
+    "rpn-levan": "^1.0.1"
+  }
+}
